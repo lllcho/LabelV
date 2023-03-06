@@ -1,0 +1,20 @@
+# 预设待标注的动作或者事件的类别名称
+class_name : ['喝水','拥抱','玩手机','打电话','看书', '跌倒']
+
+# 视频所在目录
+video_dir : '/Users/username/Downloads/datasets/example_data'
+
+# 视频文件列表
+video_list: ''
+
+# 标注结果文件
+label_file: '/Users/username/Downloads/datasets/example_data/video_stl.json'
+
+# 浏览器中视频长边的像素数，控制视频的缩放，通常不用调整
+max_size: 960 
+
+# 标注服务端口
+port: 18082
+
+# 标注任务名,任意填写
+task_name: 'example_stl'
