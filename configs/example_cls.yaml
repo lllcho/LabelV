@@ -1,0 +1,23 @@
+# label_id 用来定义每个类别的标签，一般用整数表示，每个数字表示一个类别，标注后对应的数字将会保存到标注文件
+label_id : [1, 0, -1]
+
+# label_desc 标签描述，和label_id存在一一对应关系，用来在标注界面描述对应的label_id表示的具体意义，不会存储到标注文件
+label_desc : ['有动作','无动作','无效的视频(视频太短或者画面不够和谐等)']
+
+# 视频目录
+video_dir : '/Users/username/Downloads/datasets/example_data'
+
+# 视频文件名列表
+video_list: ''
+
+# 标注结果文件，第一行为表头，从第二行开始每行一个文件名和对应文件被标注的label_id
+label_file: 'static/example_data/video_cls.csv'
+
+# 视频播放倍速，如有必要，可以设置2倍速播放，提升标注效率
+playback_rate: 1
+
+# 标注服务端口
+port: 18081
+
+# 标注任务名
+task_name: 'example_cls'
