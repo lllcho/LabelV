@@ -3,7 +3,7 @@
 - 视频类别标注 (LabelV-CLS)
 - 视频时空标注 (LabelV-STL)
   
-![](images/demo.gif)
+![](https://github.com/lllcho/LabelV/raw/main/images/demo.gif)
 ## 安装
 要求Python 3.x环境，安装依赖项：
 ``` shell
@@ -32,7 +32,7 @@ video/c.mp4
 python labelv_cls.py configs/example_cls.yaml
 ```
 浏览器打开标注URL进行标注: http://0.0.0.0:port/task_name, 远程标注时，将IP替换为服务器的真实IP, port和task_name见配置文件
-![](images/cls_ui.jpg)
+![](https://github.com/lllcho/LabelV/raw/main/images/cls_ui.jpg)
 
 
 ## 2. 视频时空标注(LabelV-STL)
@@ -59,7 +59,7 @@ video/c.mp4
 ```shell
 python labelv_stl.py configs/example_stl.yaml
 ```
-![](images/stl_ui.jpg)
+![](https://github.com/lllcho/LabelV/raw/main/images/stl_ui.jpg)
 
 ### 2.3 标注说明
 - 刷新网页可暂时跳过该视频
